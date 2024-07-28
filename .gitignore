@@ -1,0 +1,6 @@
+**/src/**/__pycache__
+.env
+environment
+terraform/.terraform/
+terraform/python/
+terraform/Python-3.9.0/

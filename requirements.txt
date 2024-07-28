@@ -1,0 +1,2 @@
+pymongo[srv]==4.4.1
+dnspython==2.6.1
