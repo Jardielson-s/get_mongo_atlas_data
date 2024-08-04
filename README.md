@@ -1,4 +1,4 @@
-# SUMMARY
+# Summary
 <p> 
     This is an lambda application for get data from mongo atlas through vpc peering.
     The lambda function is in a vpc with public subnets, the subnets with lambda use a network interface to allow  access to the internet.
@@ -16,7 +16,7 @@
 * Aws lambda
 * Python3.10
 
-# ACHITECTURE
+## Architecture
 
 <img src="https://raw.githubusercontent.com/Jardielson-s/get_mongo_atlas_data/ef05bd69f72ce34cbff2aa229f22c31340fe973a/images/lambda-function-mongo-atlas.drawio.svg"/>
 
@@ -37,7 +37,9 @@ terraform apply --var-file="terraform.tfvars" -auto-approve
 
 4. test lambda
 
-5. After completing the tests, you can undo all the resources created in AWS with:
+
+## Undo aws resources
+1. After completing the tests, you can undo all the resources created in AWS with:
 ```bash
 terraform destroy -auto-approve
 ```
