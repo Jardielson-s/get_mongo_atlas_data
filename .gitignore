@@ -4,3 +4,4 @@ environment
 terraform/.terraform/
 terraform/python/
 terraform/terraform.tfvars
+terraform/layer.zip
