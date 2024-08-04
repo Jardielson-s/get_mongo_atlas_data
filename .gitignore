@@ -3,4 +3,4 @@
 environment
 terraform/.terraform/
 terraform/python/
-terraform/Python-3.9.0/
+terraform/terraform.tfvars
