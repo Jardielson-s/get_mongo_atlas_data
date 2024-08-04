@@ -17,4 +17,5 @@
 * Python3.10
 
 # ACHITECTURE
-![image]('./images/lambda-function-mongo-atlas.drawio.svg')# get_mongo_atlas_data
+
+<img src="https://raw.githubusercontent.com/Jardielson-s/get_mongo_atlas_data/ef05bd69f72ce34cbff2aa229f22c31340fe973a/images/lambda-function-mongo-atlas.drawio.svg"/>
