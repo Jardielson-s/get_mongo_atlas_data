@@ -17,4 +17,4 @@
 * Python3.10
 
 # ACHITECTURE
-![image]('./images/lambda-function-mongo-atlas.drawio.svg')
+![image]('./images/lambda-function-mongo-atlas.drawio.svg')# get_mongo_atlas_data
