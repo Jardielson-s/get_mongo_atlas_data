@@ -19,3 +19,25 @@
 # ACHITECTURE
 
 <img src="https://raw.githubusercontent.com/Jardielson-s/get_mongo_atlas_data/ef05bd69f72ce34cbff2aa229f22c31340fe973a/images/lambda-function-mongo-atlas.drawio.svg"/>
+
+
+## Execute application
+1. export envs
+```bash
+export AWS_ACCESS_KEY_ID="value"
+export AWS_SECRET_ACCESS_KEY="value"
+```
+2. run terraform
+```bash
+terraform init -backend-config="backend.conf" --var-file="terraform.tfvars"
+terraform plan --var-file="terraform.tfvars"
+terraform apply --var-file="terraform.tfvars" -auto-approve
+```
+3. Create Vpc peering, here is a tutorial for that, <a href="https://www.letr.ai/ko/blog/tech-221210"> link  </a>
+
+4. test lambda
+
+5. After completing the tests, you can undo all the resources created in AWS with:
+```bash
+terraform destroy -auto-approve
+```
