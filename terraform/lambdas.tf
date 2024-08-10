@@ -17,6 +17,7 @@ resource "aws_lambda_function" "terraform_lambda_func" {
     variables = {
       MONGO_URI     = var.mongo_uri
       DATABASE_NAME = var.database_name
+      BUCKET_NAME   = var.bucket_name
     }
   }
 

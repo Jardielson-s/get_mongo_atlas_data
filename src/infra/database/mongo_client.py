@@ -1,10 +1,13 @@
 import os
-from pymongo import MongoClient
+from pymongo import MongoClient, errors
+
 
 def mongo_client():
     try:
-        client = MongoClient(os.getenv('MONGO_URI'), )
-        db = client[os.getenv('DATABASE_NAME')]
+        client = MongoClient(
+            os.getenv("MONGO_URI"),
+        )
+        db = client[os.getenv("DATABASE_NAME")]
         return db
-    except Exception as e:
-        print(e)
+    except errors:
+        return errors

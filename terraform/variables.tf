@@ -101,3 +101,8 @@ variable "security_group_name" {
   default     = "vpc-peering-sg"
   description = "vpc peering sg"
 }
+
+variable "bucket_name" {
+  type    = string
+  default = "teste-bucket-lambda-01"
+}
