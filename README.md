@@ -18,7 +18,7 @@
 
 ## Architecture
 
-<img src="https://raw.githubusercontent.com/Jardielson-s/get_mongo_atlas_data/a0a6a207e661cf9e8119f432e4962633284e65b8/images/lambda-function-mongo-atlas.drawio.svg"/>
+<img src="https://raw.githubusercontent.com/Jardielson-s/get_mongo_atlas_data/ef05bd69f72ce34cbff2aa229f22c31340fe973a/images/lambda-function-mongo-atlas.drawio.svg"/>
 
 
 ## Execute application
